@@ -14,18 +14,18 @@ import Admin from './components/Admin/Admin';
 function App() {
   return (
     <div>
-      <Router basename='/thagReact'>
+      <Router basename=''>
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/anm" element={<ANM />} />
-          <Route path="/ptpm" element={<PTPM />} />
-          <Route path="/tkdh" element={<TKDH />} />
-          <Route path="/ceh" element={<CEH />} />
-          <Route path="/aws" element={<AWS />} />
-          <Route path="/register" element={<Regisform />} />
+          <Route path="/thagReact/" element={<Main />} />
+          <Route path="/thagReact/anm" element={<ANM />} />
+          <Route path="/thagReact/ptpm" element={<PTPM />} />
+          <Route path="/thagReact/tkdh" element={<TKDH />} />
+          <Route path="/thagReact/ceh" element={<CEH />} />
+          <Route path="/thagReact/aws" element={<AWS />} />
+          <Route path="/thagReact/register" element={<Regisform />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/admin" element={<Admin />} />
+          <Route path="/thagReact/admin" element={<Admin />} />
         </Routes>
       </Router>
     </div>
