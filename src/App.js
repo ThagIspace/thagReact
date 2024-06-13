@@ -14,7 +14,7 @@ import Admin from './components/Admin/Admin';
 function App() {
   return (
     <div>
-      <Router basename='/thagReact'>
+      <Router >
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Main />} />
