@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/thagReact/static/css/main.14dd4b64.css",
+    "main.js": "/thagReact/static/js/main.ea04870c.js",
+    "static/media/slider3.png": "/thagReact/static/media/slider3.2cf6da3b03a247e9fec4.png",
+    "static/media/news1.png": "/thagReact/static/media/news1.a195d3b06ded6358c74d.png",
+    "static/media/teacher5.jpg": "/thagReact/static/media/teacher5.c209e89d99949a607c16.jpg",
+    "static/media/slider2.jpg": "/thagReact/static/media/slider2.51d4dc5db5fc40839a1a.jpg",
+    "static/media/teacher6.jpg": "/thagReact/static/media/teacher6.87c1e4cc98ce2ed25707.jpg",
+    "static/media/trgispace.png": "/thagReact/static/media/trgispace.40370e88d2fa06e99f95.png",
+    "static/media/teacher7.jpg": "/thagReact/static/media/teacher7.011d5a6fcf2f2cb431b3.jpg",
+    "static/media/teacher3.jpg": "/thagReact/static/media/teacher3.570404b25a7e3e3ef905.jpg",
+    "static/media/teacher2.jpg": "/thagReact/static/media/teacher2.df21c08b7768b78a0499.jpg",
+    "static/media/teacher1.jpg": "/thagReact/static/media/teacher1.3c22872f0fe46891c136.jpg",
+    "static/media/lg1.png": "/thagReact/static/media/lg1.f2571ffed04b90b744c4.png",
+    "index.html": "/thagReact/index.html",
+    "main.14dd4b64.css.map": "/thagReact/static/css/main.14dd4b64.css.map",
+    "main.ea04870c.js.map": "/thagReact/static/js/main.ea04870c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14dd4b64.css",
+    "static/js/main.ea04870c.js"
+  ]
+}
