@@ -1,0 +1,62 @@
+/* Main */
+div hr {
+    width: 15%;
+    margin: auto;
+    border: 1px solid rgb(242, 160, 8);
+}
+/* Teachers */
+.card-slider {
+    position: relative;
+    overflow: hidden;
+}
+.card-slider-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.card-slider .prev, .card-slider .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.card-slider .prev {
+    left: 10px;
+}
+.card-slider .next {
+    right: 10px;
+}
+.phone-visible {
+    display: none;
+}
+.desktop-visible {
+    display: block;
+}
+@media (max-width: 768px) {
+    .phone-visible {
+        display: block;
+    }
+    
+    .desktop-visible {
+        display: none;
+    }
+}
+/* End Teachers */
+/* End Main */
+
+.img-wrapper {
+    height: 70vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-wrapper img {
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
